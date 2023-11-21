@@ -1,16 +1,40 @@
-.result__content{
-    max-width: 1230px;
+.result__content {
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
-.result-card__img{
-    width: 400px;
-    height: 350px;
+.result-card,.comparison-card {
+    display: block;
 }
 
-.result-card__bike p{
-    font-size: 24px;
+.result-card__img,.comparison-card__img {
+    width: 380px;
+    height: 300px;
 }
 
+.result-card ,.comparison-card {
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 20px;
+
+}
+
+.comparison-card {
+    margin-left: 40px;
+}
+
+.comparison-card__body,.result-card__body {
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.result-card__bike,.comparison-card__bike {
+    font-size: 30px;
+}
+
+.comparison-card__weight,.result-card__weight {
+    font-size: 20px;
+    margin-top: 40px;
+}
 
