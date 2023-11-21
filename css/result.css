@@ -1,0 +1,16 @@
+.result__content{
+    max-width: 1230px;
+    display: flex;
+    justify-content: center;
+}
+
+.result-card__img{
+    width: 400px;
+    height: 350px;
+}
+
+.result-card__bike p{
+    font-size: 24px;
+}
+
+
